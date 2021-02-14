@@ -19,3 +19,17 @@ Extend configuration in `prettier.config.js`
 ```js
 module.exports = require('@tractorzoom/prettier-config');
 ```
+
+##### Scripts
+
+Add scripts in `package.json`
+
+```json
+{
+    "scripts": {
+        "prettier:all": "prettier --write './**/*.*'",
+        "pretty-quick": "pretty-quick"
+    }
+}
+
+```
