@@ -19,3 +19,18 @@ Extend configuration in `jest.config.js`
 ```js
 module.exports = require('@tractorzoom/jest-config');
 ```
+
+##### Scripts
+
+Add scripts to `package.json` to utilize [jest](https://github.com/facebook/jest).
+
+```json
+{
+    "scripts": {
+        "test": "jest",
+        "test:contract": "jest --testPathPattern=__tests__/contract/",
+        "test:unit": "jest --testPathPattern=__tests__/unit/"
+    }
+}
+
+```
