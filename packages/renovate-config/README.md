@@ -6,15 +6,9 @@ Extendable renovate configuration
 
 ## How do I use? :thinking:
 
-##### Installation
-
-```bash
-npm i --save-dev @tractorzoom/renovate-config
-```
-
 ##### Usage
 
-Extend configuration in `renovate.json`
+Extend configuration in `renovate.json`. Renovate will automagically find configuration, so no need to install.
 
 ```json
 {
