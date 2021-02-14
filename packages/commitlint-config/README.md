@@ -9,7 +9,7 @@ Extendable commitlint configuration
 ##### Installation
 
 ```bash
-npm i --save-dev @tractorzoom/commitint-config
+npm i --save-dev @tractorzoom/commitlint-config
 ```
 
 ##### Usage
@@ -18,6 +18,6 @@ Extend configuration in `commitlint.config.js`
 
 ```js
 module.exports = {
-    extends: ['@tractorzoom/commitlint-config'],
+  extends: ["@tractorzoom/commitlint-config"],
 };
 ```
