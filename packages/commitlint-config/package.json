@@ -1,0 +1,30 @@
+{
+    "name": "@tractorzoom/commitlint-config",
+    "description": "Extendable commitlint configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/commitlint-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "commitlint"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "index.js",
+    "scripts": {},
+    "dependencies": {
+        "@commitlint/cli": "11.0.0",
+        "@commitlint/config-conventional": "11.0.0"
+    }
+}
