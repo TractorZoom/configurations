@@ -3,7 +3,7 @@
     "description": "Extendable renovate configuration",
     "author": "@TractorZoom",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "node": "12.x"
     },
@@ -24,7 +24,9 @@
     },
     "renovate-config": {
         "default": {
-            "extends": ["config:base"],
+            "extends": [
+                "config:base"
+            ],
             "prConcurrentLimit": 5,
             "prHourlyLimit": 10,
             "automerge": true,
@@ -33,8 +35,12 @@
             },
             "packageRules": [
                 {
-                    "packageNames": ["aws-sdk"],
-                    "schedule": ["after 9pm on sunday"]
+                    "packageNames": [
+                        "aws-sdk"
+                    ],
+                    "schedule": [
+                        "after 9pm on sunday"
+                    ]
                 }
             ]
         }
