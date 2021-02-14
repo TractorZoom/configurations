@@ -1,0 +1,31 @@
+{
+    "name": "@tractorzoom/prettier-config",
+    "description": "Extendable prettier configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "version": "0.0.0",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/prettier-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "prettier"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "index.js",
+    "scripts": {},
+    "dependencies": {
+        "prettier": "2.2.1",
+        "pretty-quick": "2.0.2"
+    }
+}
