@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "ignoreChanges": [
+          "*.md",
+          "*.txt"
+      ],
+      "message": "chore(release): [skip ci] publish %s"
+    }
+  }
+}

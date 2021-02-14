@@ -1,0 +1,25 @@
+{
+    "name": "@tractorzoom/configurations",
+    "description": "Extendable dev tool configurations",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "dev tools",
+        "shared configurations"
+    ],
+    "scripts": {},
+    "devDependencies": {
+        "lerna": "3.22.1"
+    }
+}
