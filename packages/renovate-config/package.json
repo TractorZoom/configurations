@@ -1,0 +1,42 @@
+{
+    "name": "@tractorzoom/renovate-config",
+    "description": "Extendable renovate configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "version": "0.1.0",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/renovate-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "renovate"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "renovate-config": {
+        "default": {
+            "extends": ["config:base"],
+            "prConcurrentLimit": 5,
+            "prHourlyLimit": 10,
+            "automerge": true,
+            "major": {
+                "automerge": false
+            },
+            "packageRules": [
+                {
+                    "packageNames": ["aws-sdk"],
+                    "schedule": ["after 9pm on sunday"]
+                }
+            ]
+        }
+    }
+}
