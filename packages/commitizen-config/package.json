@@ -1,0 +1,29 @@
+{
+    "name": "@tractorzoom/commitizen-config",
+    "description": "Extendable commitizen configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "version": "0.0.0",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/commitizen-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "commitizen"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "commitizen": "4.2.3",
+        "cz-conventional-changelog": "3.3.0"
+    }
+}
