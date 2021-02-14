@@ -1,0 +1,30 @@
+{
+    "name": "@tractorzoom/husky-config",
+    "description": "Extendable husky configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "version": "0.0.0",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/husky-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "husky"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "index.js",
+    "scripts": {},
+    "dependencies": {
+        "husky": "4.3.6"
+    }
+}
