@@ -1,0 +1,32 @@
+{
+    "name": "@tractorzoom/semantic-release-config",
+    "description": "Extendable semantic release configuration",
+    "author": "@TractorZoom",
+    "license": "MIT",
+    "version": "0.0.0",
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TractorZoom/configurations.git"
+    },
+    "homepage": "https://github.com/TractorZoom/configurations/packages/semantic-release-config",
+    "bugs": {
+        "url": "https://github.com/TractorZoom/configurations/issues"
+    },
+    "keywords": [
+        "shared configuration",
+        "semantic release"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "@semantic-release/changelog": "5.0.1",
+        "@semantic-release/git": "9.0.0",
+        "@semantic-release/release-notes-generator": "9.0.1",
+        "semantic-release": "17.3.9"
+    }
+}
