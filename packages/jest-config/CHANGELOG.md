@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/TractorZoom/configurations/compare/@tractorzoom/jest-config@0.1.0...@tractorzoom/jest-config@0.2.0) (2021-03-25)
+
+
+### Features
+
+* updated jest config to use babel and ts ([337b952](https://github.com/TractorZoom/configurations/commit/337b9529ddd16c23e1ef85c52151bc1ca6f0ffd8))
+
+
+
+
+
 # 0.1.0 (2021-02-14)
 
 
