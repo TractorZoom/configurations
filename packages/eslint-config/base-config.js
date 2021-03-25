@@ -5,7 +5,11 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
-        'sort-imports': 'error',
+        'sort-imports': ['error', { memberSyntaxSortOrder: ['multiple', 'single', 'all', 'none'] }],
+        'sort-keys': 'error',
+        'newline-after-var': ['error', 'always'],
+        'newline-before-return': 'error',
+        'no-param-reassign': 'off',
         'padding-line-between-statements': [
             'error',
             { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
