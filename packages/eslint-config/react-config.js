@@ -3,7 +3,7 @@ const config = require('./base-config');
 module.exports = {
     ...config,
     plugins: ['react'],
-    extends: [...config.plugins, 'plugin:react/recommended'],
+    extends: [...config.extends, 'plugin:react/recommended'],
     parserOptions: {
         ...config.parserOptions,
         ecmaFeatures: { jsx: true }
