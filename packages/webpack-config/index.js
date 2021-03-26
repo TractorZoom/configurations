@@ -1,0 +1,21 @@
+const { resolve } = require('path');
+
+module.exports = (handlers) => {
+    return {
+        entry: handlers,
+        mode: process.env.ENV === 'Test' || 'dev' ? 'development' : 'production',
+        module: { rules: [{ loader: 'ts-loader', test: /\.ts$/ }] },
+        output: {
+            filename: '[name].js',
+            libraryTarget: 'commonjs2',
+            path: resolve(__dirname, 'build'),
+        },
+        resolve: {
+            alias: {
+                '@src': resolve(__dirname, 'src/'),
+            },
+            extensions: ['.js', '.ts'],
+        },
+        target: 'node',
+    }
+}
