@@ -50,7 +50,7 @@ Handler: src/handlers/hello.handler
 Handler: build/hello.handler
 ```
 
-If you are deploying with SAM, you will need to update you CI
+If you are deploying with SAM, you will need to update your CI
 
 ```yaml
 # old
