@@ -43,11 +43,20 @@ Add build and clean scripts to `package.json` to build your webpack bundles.
 You may need to update your cloudformation template
 
 ```yaml
+Globals:
+    Function:
+        Runtime: nodejs12.x
+
 # old
 Handler: src/handlers/hello.handler
 
 # new
-Handler: build/hello.handler
+Globals:
+    Function:
+        CodeUri: build/
+        Runtime: nodejs12.x
+
+Handler: hello.handler
 ```
 
 If you are deploying with SAM, you will need to update your CI
