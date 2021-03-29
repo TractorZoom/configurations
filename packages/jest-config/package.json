@@ -3,7 +3,7 @@
     "description": "Extendable jest configuration",
     "author": "@TractorZoom",
     "license": "MIT",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "engines": {
         "node": "12.x"
     },
