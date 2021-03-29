@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/TractorZoom/configurations/compare/@tractorzoom/jest-config@0.3.0...@tractorzoom/jest-config@0.3.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* add missing typescript dependency ([9c87557](https://github.com/TractorZoom/configurations/commit/9c8755790de6a18735697ec26ccec8bc2a306f23))
+
+
+
+
+
 # [0.3.0](https://github.com/TractorZoom/configurations/compare/@tractorzoom/jest-config@0.2.0...@tractorzoom/jest-config@0.3.0) (2021-03-29)
 
 
