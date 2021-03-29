@@ -24,7 +24,13 @@ npm i --save-dev @tractorzoom/jest-config
 Extend configuration in `jest.config.js`
 
 ```js
-module.exports = require('@tractorzoom/jest-config');
+module.exports = require('@tractorzoom/jest-config').jestConfig;
+```
+
+Add Babel Config File `babel.config.js`
+
+```js
+module.exports = require('@tractorzoom/jest-config').babelConfig;
 ```
 
 ##### Scripts
