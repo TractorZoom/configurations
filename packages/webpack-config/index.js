@@ -8,11 +8,11 @@ module.exports = (handlers) => {
         output: {
             filename: '[name].js',
             libraryTarget: 'commonjs2',
-            path: resolve(__dirname, 'build'),
+            path: resolve(process.cwd(), 'build'),
         },
         resolve: {
             alias: {
-                '@src': resolve(__dirname, 'src/'),
+                '@src': resolve(process.cwd(), 'src/'),
             },
             extensions: ['.js', '.ts'],
         },
