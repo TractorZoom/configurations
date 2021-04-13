@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.2.1...@tractorzoom/eslint-config@0.2.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* update ecma version in eslint ([35ba99d](https://github.com/TractorZoom/configurations/commit/35ba99d2ecd59104e4f4115d9c640818de47c2de))
+
+
+
+
+
 ## [0.2.1](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.2.0...@tractorzoom/eslint-config@0.2.1) (2021-03-25)
 
 
