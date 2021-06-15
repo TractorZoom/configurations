@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.3.0...@tractorzoom/eslint-config@0.3.1) (2021-06-15)
+
+
+### Bug Fixes
+
+* add eslint typescript sort keys errors ([ecd73ea](https://github.com/TractorZoom/configurations/commit/ecd73ea818750cdfaf7d7a42d75f9547315f6088))
+
+
+
+
+
 # [0.3.0](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.2.2...@tractorzoom/eslint-config@0.3.0) (2021-06-15)
 
 
