@@ -3,7 +3,7 @@
     "description": "Extendable husky configuration",
     "author": "@TractorZoom",
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "engines": {
         "node": "12.x"
     },
@@ -28,7 +28,7 @@
         "husky": "4.3.6"
     },
     "peerDependencies": {
-        "@tractorzoom/prettier-config": ">= 0.1",
-        "@tractorzoom/eslint-config": ">= 0.3"
+        "@tractorzoom/eslint-config": ">= 0.3",
+        "@tractorzoom/prettier-config": ">= 0.1"
     }
 }

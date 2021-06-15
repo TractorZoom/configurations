@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.2.2...@tractorzoom/eslint-config@0.3.0) (2021-06-15)
+
+
+### Features
+
+* add lint staged dep to eslint config ([5d4d7cd](https://github.com/TractorZoom/configurations/commit/5d4d7cdbeb86d412899698f5d76e340ec48bc225))
+
+
+
+
+
 ## [0.2.2](https://github.com/TractorZoom/configurations/compare/@tractorzoom/eslint-config@0.2.1...@tractorzoom/eslint-config@0.2.2) (2021-04-13)
 
 
