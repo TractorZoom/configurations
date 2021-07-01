@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/TractorZoom/configurations/compare/@tractorzoom/husky-config@0.2.0...@tractorzoom/husky-config@0.2.1) (2021-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency husky to v4.3.8 ([d4271bf](https://github.com/TractorZoom/configurations/commit/d4271bf01ba0b36e7f6774dd8d83ea227c0ea149))
+
+
+
+
+
 # [0.2.0](https://github.com/TractorZoom/configurations/compare/@tractorzoom/husky-config@0.1.0...@tractorzoom/husky-config@0.2.0) (2021-06-15)
 
 
